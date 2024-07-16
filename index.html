@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="items">
+		<div class="item active">
+			<img src="./img/169124345.jpg">
+		</div>
+		<div class=" item next">
+			<img src="./img/1_fernando.jpg">
+		</div>
+		<div class="item">
+			<img src="./img/pexels-thorsten-technoman-109353-338504.jpg">
+		</div>
+		<div class="item">
+			<img src="./img/201680_standard.jpeg">
+		</div>
+		<div class="item prev">
+			<img src="./img/sdd.jpg">
+		</div>
+		<div class="button-container">
+			<div class="button"><i class="fas fa-angle-left"></i></div>
+			<div class="button"><i class="fas fa-angle-right"></i></div>
+		</div>
+	</div>
+
+
+	<div class="ff">
+		<div class="rr">
+		<h1 class="h11">MEXMONXONA REGISTRATSIYASI</h1>
+		<form id="registrationForm">
+			<label for="name">ismi:</label>
+			<input type="text" id="name" required>
+			
+			<label for="room">xonani tanlang:</label>
+			<select id="room" required></select>
+			
+			<button id="hh" type="submit">Register</button>
+		</form>
+    <ul id="bookingList"></ul>
+
+   <div class="ee">
+	<h2>XONANI YANGILASH YOKI OCHIRISH</h2>
+    <input type="text" id="updateName" placeholder="ismi">
+    <input type="number" id="updateRoom" placeholder="soni (1-15)">
+    <button id="updateBtn">YANGILASH</button>
+    <button id="deleteBtn">OCHIRISH</button>
+   </div>
+    
+	</div>
+	</div>
+
+
+    
+      
+    <script src="./app.js"></script>
+</body>
+</html>
